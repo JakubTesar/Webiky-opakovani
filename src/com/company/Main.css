@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+
+.right {
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 6, 1) 0%, rgba(121, 9, 90, 1) 35%, rgba(0, 164, 255, 1) 100%);
+}
+
+.image {
+    background-image: url("ChrissMtoionless.jpg");
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.containerSplit {
+    background: linear-gradient(90deg, rgba(0, 0, 6, 1) 0%, rgba(121, 9, 90, 1) 35%, rgba(0, 164, 255, 1) 100%);
+}
+
+.black {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pink {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(121, 9, 90, 1);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 164, 255, 1);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.title1 {
+    text-shadow: -1.5px -1.5px 0 #00a4ff, 1.5px 1.5px 0 #79095a;
+    text-shadow: 1.5px 1.5px 0 #00a4ff, -1.5px -1.5px 0 #79095a;
+
+
+    font-family: "Old English Text MT";
+    font-size: 120px;
+    margin: 4%;
+    color: #000000;
+}
+
+.title2 {
+    color: #fffbfb;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 30px;
+    margin: 30px;
+}
+
+.textMain {
+    color: #fffbfb;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 30px;
+    margin: 50px;
+}
+
+.buttonEpic {
+    margin: 50px;
+    color: #ffffff;
+    background-color: #79095a;
+    text-decoration: none;
+    box-shadow: black 5px 6px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.buttonEpic:hover {
+    background-color: #006196;
+}
+
+@media screen and (max-width: 1100px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+}
