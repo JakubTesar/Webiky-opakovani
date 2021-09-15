@@ -10,48 +10,45 @@ body {
 
 .right {
     right: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 6, 1) 0%, rgba(121, 9, 90, 1) 35%, rgba(0, 164, 255, 1) 100%);
+    background-color: #010118;
+}
+
+.left {
+    background: linear-gradient(90deg, rgb(150, 0, 255) 0%, rgb(0, 183, 255) 100%);
+
 }
 
 .image {
     background-image: url("ChrissMtoionless.jpg");
     object-fit: cover;
+    opacity: 40%;
     height: 100%;
     width: 100%;
 }
 
-.containerSplit {
-    background: linear-gradient(90deg, rgba(0, 0, 6, 1) 0%, rgba(121, 9, 90, 1) 35%, rgba(0, 164, 255, 1) 100%);
-}
-
-.black {
-    margin-left: 50px;
-    margin-top: 50px;
-    height: 30px;
-    width: 30px;
-    background-color: #000000;
-    border-radius: 50%;
-    display: inline-block;
-}
 
 .pink {
     margin-left: 50px;
     margin-top: 50px;
-    height: 30px;
-    width: 30px;
-    background-color: rgba(121, 9, 90, 1);
+    height: 25px;
+    width: 25px;
+    background-color: rgb(150, 0, 255);
     border-radius: 50%;
     display: inline-block;
+    box-shadow: #1f1f1f 2px 3px;
+
 }
 
 .blue {
     margin-left: 50px;
     margin-top: 50px;
-    height: 30px;
-    width: 30px;
-    background-color: rgba(0, 164, 255, 1);
+    height: 25px;
+    width: 25px;
+    background-color: rgb(0, 183, 255);
     border-radius: 50%;
     display: inline-block;
+    box-shadow: #1f1f1f 2px 3px;
+
 }
 
 .title1 {
@@ -59,42 +56,50 @@ body {
     text-shadow: 1.5px 1.5px 0 #00a4ff, -1.5px -1.5px 0 #79095a;
 
 
-    font-family: "Old English Text MT";
-    font-size: 120px;
+    font-family: "Yu Gothic";
+/ / font-family: "Old English Text MT";
+    font-size: 100px;
     margin: 4%;
-    color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 .title2 {
-    color: #fffbfb;
-    font-family: "Arial Rounded MT Bold";
+    color: #ffffff;
+    font-family: "Yu Gothic";
     font-size: 30px;
     margin: 30px;
 }
 
 .textMain {
-    color: #fffbfb;
-    font-family: "Arial Rounded MT Bold";
+    color: #ffffff;
+    font-family: "Yu Gothic";
     font-size: 30px;
     margin: 50px;
+}
+
+hr {
+    background-color: #ffffff;
+    height: 2px;
+    border: none;
 }
 
 .buttonEpic {
     margin: 50px;
     color: #ffffff;
-    background-color: #79095a;
+    background-color: rgb(150, 0, 255);
     text-decoration: none;
-    box-shadow: black 5px 6px;
+    box-shadow: #1f1f1f 4px 5px;
     width: 150px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 0px;
     border: none;
     font-size: 25px;
-    font-family: "Arial Rounded MT Bold";
+    font-family: "Yu Gothic";
 }
 
 .buttonEpic:hover {
-    background-color: #006196;
+    background-color: rgb(0, 100, 141);
 }
 
 @media screen and (max-width: 1100px) {
